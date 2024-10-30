@@ -1,0 +1,272 @@
+.mwa_owl_css .item {
+	text-align: center;
+}
+
+.mwa_owl_css .item img{
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	padding-bottom: 0.5em;
+}
+
+.mwa_owl_css .item .small_desc h4,
+.mwa_owl_css .item .small_desc h5 { 
+	color: #000;
+}
+
+.mwa_owl_css .item .small_desc h4 {
+	font-size: 16px;
+    font-weight: 600;
+    padding-top: 0.8em;
+}
+
+.mwa_owl_css .item .small_desc h5 {
+	font-size: 14px;
+}
+header#main-header {
+   /* z-index: 9;
+    opacity: 1;*/
+}
+.mwa_matri .modal-backdrop {
+	z-index: 9999999 !important;
+}
+
+.mwa_matri .modal {
+	z-index: 9999999 !important;
+	top: 5.5%;
+}
+.mwa_profile_image {
+    
+    padding: 15px 0;
+    
+    
+}
+.displayhandle {
+	display: block;
+}
+.mwa_matri .nav-tabs .nav-item.show .nav-link,
+.mwa_matri .nav-tabs .nav-link.active {
+    color: #FFFFFF;
+    background-color: #495057;    
+    width: 320px;
+    text-align: center;
+    padding: 15px 0;
+    margin: 5px 5px;
+    border: 1px solid green;
+}
+.mwa_matri .nav-tabs .nav-link {    
+    width: 320px;
+    text-align: center;
+    padding: 15px 0;
+    border: 1px solid orange;
+    color: orange;
+}
+
+/*.mwa_matri .nav-tabs .nav-link:focus, */
+.mwa_matri .nav-tabs .nav-link:hover {
+	border: 1px solid #ffffff;
+	background-color: orange;
+	color: #ffffff;
+}
+table.frontend_full_profile {
+	border-collapse: collapse;
+	border-color: #000 !important;
+}
+table.frontend_full_profile tbody td {
+	border-color: #000 !important;
+}
+
+table.table-bordered.dataTable tbody th,
+table.table-bordered.dataTable tbody td {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.frontend_full_profile.table-striped > tbody > tr:nth-child(2n+1) > td,
+.frontend_full_profile.table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #ffc683;
+}
+.frontend_full_profile.table-striped > tbody > tr:nth-child(2n) > td,
+.frontend_full_profile.table-striped > tbody > tr:nth-child(2n) > th {
+   background-color: #ffe2c1;
+}
+
+.mwa_img_block img {
+	width: 100px !important;
+	height: 100px !important;
+	display: inline-block;
+}
+
+.mwa_intialinfo {
+	
+}
+
+
+.frontend_full_profile.table > thead > tr > th{
+	background: linear-gradient(to right, #E9DC94, #3C514D, #4E7898) !important;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+}
+.mwa_text_field{
+	padding: 0.300rem .7rem !important;
+    font-size: .75rem !important;
+}
+.mwa_Samaj_Select{
+	padding:0.300rem .7rem !important;
+	font-size:.75rem !important;
+	border-radius:20px !important;
+	opacity: 0.5 !important;
+	font-weight: bold !important;
+}
+.matri_form{
+	padding-left:430px !important;
+	padding-Top:30px !important;
+	padding-bottom:20px !important;
+}
+.mwa_Samaj_label
+{
+	color: green;
+	font-weight: 900;
+}
+.mwa_Samaj_PaddingLR
+{
+	padding-Left:40px;
+	padding-Right:40px;	
+}
+.mwa_Samaj_PaddingLRT
+{
+	padding-Top:40px;
+	padding-Left:40px;
+	padding-Right:40px;	
+	
+}
+.mwa_Samaj_PaddingBackg
+{
+	background:#FFEBCD;
+	border:1px solid #808080;
+	box-shadow: 10px 5px 10px 5px #888888;
+	
+}
+
+.mfp-img-mobile img.mfp-img {
+  z-index: 9999999;
+}
+
+/*@media ( min-width: 275px ) and ( max-width: 575px ) {*/
+.mwa_matri .mwa_sub_button {
+	text-align: center;
+	margin: 15px 0;
+}
+/*}*/
+@media ( min-width: 576px ) {
+	.mwa_matri .modal-dialog {
+	    max-width: 1050px;
+	    max-height: 600px;
+	    overflow-y: scroll;
+	}
+}
+
+@media ( min-width: 992px ) {
+	.mwa_matri .table-responsive {
+		display: inline-table !important;
+	}
+}
+
+/*
+	To change the view of table in mobile or portable device
+*/
+.mwa_profile_image {
+	display: inline-block;
+}
+.mwa_img_description{
+	display: none;
+}
+.hide_element {
+	display: table-cell;
+}
+.date-picker .date-wrapper {
+  top: -8px;
+}
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+	.mwa_profile_image {
+		display: flex;
+	}
+	.mwa_img_description{
+		display: inline-block;
+		padding-left: 15px;
+	}
+
+	.mwa_img_description p {
+		text-align: left;
+		font-weight: 500;
+		font-size: 15px;
+		padding: 0;
+		margin-bottom: 0;
+	}
+	.mwa_img_description p span {
+		display: inline-block;
+		padding: 2.5px;
+		width: 90px;
+	}
+	
+	.hide_element {
+    	display: none;
+    }
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr { 
+      display: block; 
+    }
+  
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr { 
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  
+    tr { border: 1px solid #ccc; }
+  
+    td { 
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee; 
+      position: relative;
+      padding-left: 50%; 
+    }
+  
+    td:before { 
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%; 
+      padding-right: 10px; 
+      white-space: nowrap;
+    }  
+    /*
+      Label the data
+    */
+    /*td:nth-of-type(1):before { content: ""; }*/
+    /*td:nth-of-type(2):before { content: "Name"; }
+    td:nth-of-type(3):before { content: "Date Of Birth"; }
+    td:nth-of-type(4):before { content: "Manglik"; }*/
+    /*td:nth-of-type(2):before { content: "Father";  }
+    td:nth-of-type(3):before { content: "Gotra";  }
+    td:nth-of-type(4):before { content: "Maternal Gotra";  }*/
+    /*td:nth-of-type(8):before { content: "Mother"; }*/
+    td:nth-of-type(5):before { content: "Father";  }   
+    td:nth-of-type(6):before { content: "Gotra";  }   
+    td:nth-of-type(7):before { content: "Maternal Gotra";  }    
+}
+
+.back {
+	display: block;
+    padding: 5px;
+    border: 1px solid red;
+    width: 2em;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,13 @@
+.loader {
+	position:fixed;
+	top: 80%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: -3em;
+	margin-left: -3em;
+	border: 0px solid #ccc;
+	background-color: #ffffff;
+	display: block;
+	z-index: 9999999;
+}

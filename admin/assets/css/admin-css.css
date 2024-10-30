@@ -1,0 +1,170 @@
+.mwa_matri .mwa_shortcode_list h3 {
+	padding: 15px 0;
+}
+.mwa_matri .mwa_shortcode_list h6{
+	padding: 10px 0;
+	font-weight: 800;
+}
+.mwa_matri .mwa_shortcode_list p {
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+.mwa_matri .modal.show .modal-dialog {
+	max-height: 600px;
+	overflow-y: scroll;
+}
+.mwa-admin-table-all-profile.table-striped > thead.thead-custom-color > tr > th {
+	background-color: #d33a2c;
+	color: #FCF6F5FF;
+}
+
+/* Dashboard and shortcode info page */
+#mwa_matri_dashboard_section,
+#mwa_matri_shortcode_section,
+#mwa_matri_profile_slider_setting_section {
+	background-image: -webkit-linear-gradient(83deg, #465b98 0%, #69347f 43%, #11253b 100%);
+	font-family:Lato;
+	color: #FCF6F5FF;
+}
+#mwa_matri_dashboard_section h4.mwa_page_heading,
+#mwa_matri_shortcode_section h4.mwa_page_heading,
+#mwa_matri_profile_slider_setting_section h4.mwa_page_heading {
+	position:relative;
+	font-family:Lato;
+	font-weight:300;
+	display:inline-block;
+	color:#FCF6F5FF;
+	font-size:40px;
+	margin:30px;
+	border-left:solid 1px #e65941;
+	border-right:solid 1px #e65941;
+	padding:0 10px;
+}
+
+#mwa_matri_dashboard_section h4.mwa_page_heading::before,
+#mwa_matri_dashboard_section h4.mwa_page_heading::after,
+#mwa_matri_shortcode_section h4.mwa_page_heading::before,
+#mwa_matri_shortcode_section h4.mwa_page_heading::after,
+#mwa_matri_profile_slider_setting_section h4.mwa_page_heading::before,
+#mwa_matri_profile_slider_setting_section h4.mwa_page_heading::after {
+	position:absolute;
+	content:"";
+	border-bottom:1px solid #e65941;
+	width:30px;
+	bottom:23px
+}
+#mwa_matri_dashboard_section h4.mwa_page_heading::before,
+#mwa_matri_shortcode_section h4.mwa_page_heading::before,
+#mwa_matri_profile_slider_setting_section h4.mwa_page_heading::before {
+	left:-30px
+}
+#mwa_matri_dashboard_section h4.mwa_page_heading::after,
+#mwa_matri_shortcode_section h4.mwa_page_heading::after,
+#mwa_matri_profile_slider_setting_section h4.mwa_page_heading::after {
+	right:-30px
+}
+
+/* Table row and column background color */
+.mwa-admin-table-all-profile.table-striped > tbody > tr:nth-child(2n) > td,
+.mwa-admin-table-all-profile.table-striped > tbody > tr:nth-child(2n) > th {
+   background-color: rgba( 51, 51, 153, 0.62 );
+}
+
+.mwa-admin-table-all-profile.table-striped > tbody > tr:nth-child(2n+1) > td,
+.mwa-admin-table-all-profile.table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: rgba( 224, 30, 90, 0.5 );
+}
+
+/* font color CSS */
+.mwa-admin-table-all-profile.table-striped > tbody > tr,
+.mwa-admin-table-all-profile.table-striped > tbody > tr > th > a,
+.mwa-admin-table-all-profile.table-striped > tbody > tr > td > a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Profile Update form */
+#mwa_profile_update_form {
+	/*background-color: #00d0ff59;*/
+	background-image: -webkit-linear-gradient(83deg, #465b98 0%, #69347f 43%, #11253b 100%);
+	font-family:Lato;
+}
+
+#mwa_profile_update_form label,
+#mwa_profile_update_form h5,
+#mwa_profile_update_form h2 {
+	color: #FCF6F5FF;
+}
+
+#mwa_profile_update_form h2 {
+	position:relative;
+	font-family:Lato;
+	font-weight:300;
+	display:inline-block;
+	color:#FCF6F5FF;
+	font-size:40px;
+	margin:30px;
+	border-left:solid 1px #e65941;
+	border-right:solid 1px #e65941;
+	padding:0 10px;
+}
+
+#mwa_profile_update_form h2::before,
+#mwa_profile_update_form h2::after {
+	position:absolute;
+	content:"";
+	border-bottom:1px solid #e65941;
+	width:30px;
+	bottom:23px
+}
+#mwa_profile_update_form h2::before {
+	left:-30px
+}
+#mwa_profile_update_form h2::after {
+	right:-30px
+}
+
+
+#mwa_profile_update_form h5 {
+	position:relative;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+#mwa_profile_update_form h5::after {
+	position: absolute;
+    content: "";
+    border-bottom: 2.5px dashed #FCF6F5FF;
+    width: 5em;
+    /* bottom: 23px; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Profile view in modal */
+.mwa_matri .modal {
+    z-index: 9999;
+}
+/* Manage options page */
+#uploadfilr_block_gotra {
+	/*display: none;*/
+}
+
+@media screen and ( min-width: 320px ) and ( max-width: 990px ) {
+	.mwa_matri .form-control {
+		width: 70%;
+	}
+}
+@media ( min-width: 576px ) {
+	.mwa_matri .modal-dialog {
+	    max-width: 1050px;
+	    max-height: 600px;
+	    overflow-y: scroll;
+	}
+}
+@media ( min-width: 992px ) {
+	.mwa-admin-table .table-responsive {
+		display: inline-table !important;
+	}
+}

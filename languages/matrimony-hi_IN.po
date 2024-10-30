@@ -1,0 +1,736 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: matrimonial manager\n"
+"POT-Creation-Date: 2020-07-08 15:41+0530\n"
+"PO-Revision-Date: 2021-03-05 17:01+0530\n"
+"Last-Translator: MyWebApp <info@mywebapp.in>\n"
+"Language-Team: \n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/MWA_Matri_Menu.php:8
+msgid "Matrimonial"
+msgstr "वैवाहिक"
+
+#: admin/MWA_Matri_Menu.php:8
+msgid "MWA Matrimonial"
+msgstr "वैवाहिक"
+
+#: admin/MWA_Matri_Menu.php:19
+msgid "Update"
+msgstr "अद्यतन"
+
+#: admin/MWA_Matri_Menu.php:19
+msgid "Update Member"
+msgstr "अद्यतन सदस्य"
+
+#: admin/inc/full-profile-ajax.php:14
+msgid "Candidate's Name"
+msgstr "उम्मीदवार का नाम"
+
+#: admin/inc/full-profile-ajax.php:18
+#: public/inc/controller/full_profile.php:101 public/view_profile.php:107
+msgid "Gender"
+msgstr "लिंग"
+
+#: admin/inc/full-profile-ajax.php:22
+msgid "Date of birth"
+msgstr "जन्म की तारीख"
+
+#: admin/inc/full-profile-ajax.php:26
+msgid "Birth place"
+msgstr "जन्म स्थान"
+
+#: admin/inc/full-profile-ajax.php:30 admin/inc/profile_edit.php:106
+#: public/inc/controller/full_profile.php:105 public/inc/matrimonial.php:40
+#: public/inc/profile_page-old.php:31 public/inc/profile_page.php:33
+#: public/inc/safepage.php:33 public/view_profile.php:111
+msgid "Manglik"
+msgstr "मांगलिक"
+
+#: admin/inc/full-profile-ajax.php:34 admin/inc/profile_edit.php:119
+#: public/inc/controller/full_profile.php:109 public/inc/matrimonial.php:49
+#: public/inc/profile_page-old.php:32 public/inc/profile_page.php:35
+#: public/inc/safepage.php:35 public/view_profile.php:115
+msgid "Gotra"
+msgstr "गोत्र"
+
+#: admin/inc/full-profile-ajax.php:38 admin/inc/profile_edit.php:123
+#: public/inc/matrimonial.php:53 public/inc/profile_page-old.php:33
+#: public/inc/profile_page.php:36 public/inc/safepage.php:36
+msgid "Maternal Gotra"
+msgstr "मातृ गोत्र"
+
+#: admin/inc/full-profile-ajax.php:42 admin/inc/mwa_matri_dashboard.php:29
+#: public/inc/controller/full_profile.php:173 public/view_profile.php:179
+msgid "Father's Name"
+msgstr "पिता का नाम"
+
+#: admin/inc/full-profile-ajax.php:46
+msgid "Father's Contact No"
+msgstr "पिता का संपर्क नं"
+
+#: admin/inc/full-profile-ajax.php:50
+msgid "Father's occupation"
+msgstr "पिता का व्यवसाय"
+
+#: admin/inc/full-profile-ajax.php:54
+msgid "Mother name"
+msgstr "मां का नाम"
+
+#: admin/inc/full-profile-ajax.php:58
+msgid "Mother occupation"
+msgstr "माँ का व्यवसाय"
+
+#: admin/inc/full-profile-ajax.php:62 admin/inc/profile_edit.php:156
+#: public/inc/controller/full_profile.php:197 public/inc/matrimonial.php:86
+#: public/view_profile.php:203
+msgid "Grand Father"
+msgstr "दादा"
+
+#: admin/inc/full-profile-ajax.php:67 admin/inc/profile_edit.php:162
+#: public/inc/matrimonial.php:90
+msgid "Native place"
+msgstr "पैतृक स्थान"
+
+#: admin/inc/mwa_matri_dashboard.php:11
+msgid "Matrimonial Dashboard"
+msgstr "वैवाहिक डैशबोर्ड"
+
+#: admin/inc/mwa_matri_dashboard.php:27
+msgid "S.No."
+msgstr "क्र.सं."
+
+#: admin/inc/mwa_matri_dashboard.php:28
+#: public/inc/controller/full_profile.php:93 public/inc/profile_page-old.php:28
+#: public/inc/profile_page.php:31 public/inc/safepage.php:31
+#: public/view_profile.php:99
+msgid "Name"
+msgstr "नाम"
+
+#: admin/inc/mwa_matri_dashboard.php:30 admin/inc/profile_edit.php:423
+#: public/inc/matrimonial.php:313
+msgid "City"
+msgstr "नगर"
+
+#: admin/inc/mwa_matri_dashboard.php:31
+msgid "Contact no"
+msgstr "संपर्क नंबर"
+
+#: admin/inc/mwa_matri_dashboard.php:32 admin/inc/profile_edit.php:186
+#: admin/inc/profile_edit.php:189 public/inc/controller/full_profile.php:217
+#: public/inc/matrimonial.php:107 public/view_profile.php:223
+msgid "Address"
+msgstr "पता"
+
+#: admin/inc/mwa_matri_dashboard.php:33
+msgid "Quick View"
+msgstr "जल्दी देखो"
+
+#: admin/inc/mwa_matri_dashboard.php:34
+msgid "Status"
+msgstr "स्थिति"
+
+#: admin/inc/mwa_matri_dashboard.php:35
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: admin/inc/mwa_matri_dashboard.php:36
+msgid "Delete"
+msgstr "हटाएं"
+
+#: admin/inc/mwa_matri_dashboard.php:77 public/inc/profile_page-old.php:135
+#: public/inc/profile_page.php:141 public/inc/safepage.php:141
+msgid "Profile Detail"
+msgstr "प्रोफाइल का विवरण"
+
+#: admin/inc/mwa_matri_dashboard.php:100
+msgid "Edit Profile Detail"
+msgstr "प्रोफ़ाइल विवरण संपादित करें"
+
+#: admin/inc/profile_edit.php:69
+msgid "Update Profile"
+msgstr "प्रोफ़ाइल संपादित करें"
+
+#: admin/inc/profile_edit.php:78 public/inc/matrimonial.php:16
+msgid "Candiate Name"
+msgstr "प्रत्याशी का नाम"
+
+#: admin/inc/profile_edit.php:82 public/inc/matrimonial.php:20
+msgid "Candiate DOB"
+msgstr "उम्मीदवार की जन्मतिथि"
+
+#: admin/inc/profile_edit.php:86 public/inc/matrimonial.php:24
+msgid "Candiate Birth Place"
+msgstr "अभ्यर्थी जन्म स्थान"
+
+#: admin/inc/profile_edit.php:90 public/inc/matrimonial.php:28
+msgid "Birth Time"
+msgstr "जन्म समय"
+
+#: admin/inc/profile_edit.php:94 public/inc/matrimonial.php:32
+msgid "Candiate gender"
+msgstr "अभ्यर्थी का लिंग"
+
+#: admin/inc/profile_edit.php:96 admin/inc/profile_edit.php:108
+#: admin/inc/profile_edit.php:172 admin/inc/profile_edit.php:270
+#: admin/inc/profile_edit.php:349 admin/inc/profile_edit.php:446
+#: public/inc/matrimonial.php:34 public/inc/matrimonial.php:42
+#: public/inc/matrimonial.php:100 public/inc/matrimonial.php:183
+#: public/inc/matrimonial.php:202 public/inc/matrimonial.php:212
+#: public/inc/matrimonial.php:239 public/inc/matrimonial.php:336
+msgid "Select"
+msgstr "चयन"
+
+#: admin/inc/profile_edit.php:97 public/inc/matrimonial.php:35
+msgid "Male"
+msgstr "नर"
+
+#: admin/inc/profile_edit.php:98 public/inc/matrimonial.php:36
+msgid "Female"
+msgstr "महिला"
+
+#: admin/inc/profile_edit.php:109 admin/inc/profile_edit.php:447
+#: public/inc/matrimonial.php:43 public/inc/matrimonial.php:337
+msgid "Yes"
+msgstr "हाँ"
+
+#: admin/inc/profile_edit.php:110 admin/inc/profile_edit.php:353
+#: admin/inc/profile_edit.php:448 public/inc/matrimonial.php:44
+#: public/inc/matrimonial.php:243 public/inc/matrimonial.php:338
+msgid "No"
+msgstr "नहीं"
+
+#: admin/inc/profile_edit.php:111 public/inc/matrimonial.php:45
+#: public/inc/matrimonial.php:233
+msgid "Don't know"
+msgstr "पता नहीं"
+
+#: admin/inc/profile_edit.php:129 public/inc/matrimonial.php:59
+msgid "Family Details"
+msgstr "पारिवारिक विवरण"
+
+#: admin/inc/profile_edit.php:132 public/inc/matrimonial.php:62
+msgid "Father Name"
+msgstr "पिता का नाम"
+
+#: admin/inc/profile_edit.php:136 public/inc/matrimonial.php:66
+msgid "Father Mobile No"
+msgstr "पिता मोबाइल नं"
+
+#: admin/inc/profile_edit.php:140 public/inc/matrimonial.php:70
+msgid "Father's Occupation "
+msgstr "पिता का व्यवसाय "
+
+#: admin/inc/profile_edit.php:144 public/inc/matrimonial.php:74
+msgid "Father Annual Income"
+msgstr "पिता की वार्षिक आय"
+
+#: admin/inc/profile_edit.php:148 public/inc/matrimonial.php:78
+msgid "Mother Name"
+msgstr "मां का नाम"
+
+#: admin/inc/profile_edit.php:152 public/inc/matrimonial.php:82
+msgid "Mother's Occupation "
+msgstr "मां का व्यवसाय "
+
+#: admin/inc/profile_edit.php:166 public/inc/controller/full_profile.php:209
+#: public/inc/matrimonial.php:94 public/view_profile.php:215
+msgid "Nationality"
+msgstr "राष्ट्रीयता"
+
+#: admin/inc/profile_edit.php:170 public/inc/matrimonial.php:98
+msgid "Status Of Family"
+msgstr "परिवार की स्थिति"
+
+#: admin/inc/profile_edit.php:173 public/inc/matrimonial.php:101
+msgid "Middle class"
+msgstr "मध्यम वर्ग"
+
+#: admin/inc/profile_edit.php:174 public/inc/matrimonial.php:102
+msgid "Upper middle class"
+msgstr "उच्च मध्यम वर्ग"
+
+#: admin/inc/profile_edit.php:175 public/inc/matrimonial.php:103
+msgid "Lower middle class"
+msgstr "निम्न मध्यम वर्ग"
+
+#: admin/inc/profile_edit.php:193 public/inc/matrimonial.php:111
+msgid "Country"
+msgstr "देश"
+
+#: admin/inc/profile_edit.php:197 public/inc/matrimonial.php:115
+msgid "State"
+msgstr "राज्य"
+
+#: admin/inc/profile_edit.php:242 public/inc/matrimonial.php:156
+msgid "District"
+msgstr "जिला"
+
+#: admin/inc/profile_edit.php:246 public/inc/matrimonial.php:160
+msgid "PIN Code"
+msgstr "पिन कोड"
+
+#: admin/inc/profile_edit.php:250 public/inc/matrimonial.php:164
+msgid "phone "
+msgstr "फ़ोन "
+
+#: admin/inc/profile_edit.php:254 public/inc/matrimonial.php:168
+msgid "Contact No"
+msgstr "संपर्क नंबर"
+
+#: admin/inc/profile_edit.php:258 public/inc/matrimonial.php:172
+msgid "E-mail Id"
+msgstr "ईमेल आईडी"
+
+#: admin/inc/profile_edit.php:265 public/inc/matrimonial.php:178
+msgid "Personal Details"
+msgstr "व्यक्तिगत विवरण"
+
+#: admin/inc/profile_edit.php:268 public/inc/controller/full_profile.php:117
+#: public/inc/matrimonial.php:181 public/view_profile.php:123
+msgid "Height"
+msgstr "ऊंचाई"
+
+#: admin/inc/profile_edit.php:291 public/inc/controller/full_profile.php:121
+#: public/inc/matrimonial.php:200 public/view_profile.php:127
+msgid "Body type"
+msgstr "शरीर के प्रकार"
+
+#: admin/inc/profile_edit.php:305 public/inc/controller/full_profile.php:125
+#: public/inc/matrimonial.php:210 public/view_profile.php:131
+msgid "Complexion"
+msgstr "रंग"
+
+#: admin/inc/profile_edit.php:321 public/inc/controller/full_profile.php:129
+#: public/inc/matrimonial.php:222 public/view_profile.php:135
+msgid "Blood Group"
+msgstr "रक्त समूह"
+
+#: admin/inc/profile_edit.php:343
+msgid "Education and job Details"
+msgstr "शिक्षा और नौकरी का विवरण"
+
+#: admin/inc/profile_edit.php:347 public/inc/controller/full_profile.php:133
+#: public/inc/matrimonial.php:237 public/view_profile.php:139
+msgid "Education Detail"
+msgstr "शिक्षा विस्तार"
+
+#: admin/inc/profile_edit.php:350 public/inc/matrimonial.php:240
+msgid "Graduate"
+msgstr "स्नातक"
+
+#: admin/inc/profile_edit.php:351 public/inc/matrimonial.php:241
+msgid "Post Graduate"
+msgstr "पोस्ट ग्रेजुएट"
+
+#: admin/inc/profile_edit.php:352 public/inc/matrimonial.php:242
+msgid "Up to 12<sup>Th</sup>"
+msgstr ""
+
+#: admin/inc/profile_edit.php:357 public/inc/controller/full_profile.php:137
+#: public/inc/matrimonial.php:247 public/view_profile.php:143
+msgid "Education"
+msgstr "शिक्षा"
+
+#: admin/inc/profile_edit.php:361 public/inc/matrimonial.php:251
+msgid "Hobby"
+msgstr "शौक"
+
+#: admin/inc/profile_edit.php:365 public/inc/controller/full_profile.php:145
+#: public/inc/matrimonial.php:255 public/view_profile.php:151
+msgid "Occupation"
+msgstr "व्यवसाय"
+
+#: admin/inc/profile_edit.php:369 admin/inc/profile_edit.php:431
+#: public/inc/controller/full_profile.php:157 public/inc/matrimonial.php:259
+#: public/inc/matrimonial.php:321 public/view_profile.php:163
+msgid "Designation"
+msgstr "पद"
+
+#: admin/inc/profile_edit.php:373 public/inc/controller/full_profile.php:161
+#: public/inc/matrimonial.php:263 public/view_profile.php:167
+msgid "Annual Income"
+msgstr "वार्षिक आय"
+
+#: admin/inc/profile_edit.php:377 public/inc/matrimonial.php:267
+msgid "Company name"
+msgstr "कंपनी का नाम"
+
+#: admin/inc/profile_edit.php:381 public/inc/matrimonial.php:271
+msgid "Company city"
+msgstr "कंपनी शहर"
+
+#: admin/inc/profile_edit.php:387 public/inc/matrimonial.php:277
+msgid "Sibling Details"
+msgstr "सिबलिंग विवरण"
+
+#: admin/inc/profile_edit.php:390 public/inc/matrimonial.php:280
+msgid "No of unmarried brother"
+msgstr "अविवाहित भाई की संख्या"
+
+#: admin/inc/profile_edit.php:394 public/inc/matrimonial.php:284
+msgid "No of unmarried sister"
+msgstr "अविवाहित बहन की संख्या"
+
+#: admin/inc/profile_edit.php:398 public/inc/matrimonial.php:288
+msgid "No of Married Brother"
+msgstr "विवाहित भाई की संख्या"
+
+#: admin/inc/profile_edit.php:402 public/inc/matrimonial.php:292
+msgid "No of married sister"
+msgstr "विवाहित बहन की सं"
+
+#: admin/inc/profile_edit.php:408 public/inc/matrimonial.php:298
+msgid "Relative Details"
+msgstr "संबंधी विवरण"
+
+#: admin/inc/profile_edit.php:411 public/inc/matrimonial.php:301
+msgid "Relation"
+msgstr "रिश्ता"
+
+#: admin/inc/profile_edit.php:415 public/inc/matrimonial.php:305
+msgid "Relative Name"
+msgstr "सापेक्ष नाम"
+
+#: admin/inc/profile_edit.php:419 public/inc/matrimonial.php:309
+msgid "Mobile no"
+msgstr "मोबाइल न"
+
+#: admin/inc/profile_edit.php:427 public/inc/controller/full_profile.php:149
+#: public/inc/matrimonial.php:317 public/view_profile.php:155
+msgid "Company Name"
+msgstr "कंपनी का नाम"
+
+#: admin/inc/profile_edit.php:435 public/inc/matrimonial.php:325
+msgid "Company Address"
+msgstr "कंपनी का पता"
+
+#: admin/inc/profile_edit.php:441 public/inc/matrimonial.php:331
+msgid "Other Information"
+msgstr "अन्य सूचना"
+
+#: admin/inc/profile_edit.php:444 public/inc/matrimonial.php:334
+msgid "Kundali Milana Necessary"
+msgstr "कुंडली मिलाना जरूरी"
+
+#: admin/inc/profile_edit.php:456 public/inc/matrimonial.php:342
+msgid "Other Information / About Me"
+msgstr "अन्य जानकारी / मेरे बारे में"
+
+#: admin/inc/profile_edit.php:460 public/inc/matrimonial.php:346
+msgid "Image Upload"
+msgstr "छवि अपलोड"
+
+#: admin/inc/profile_edit.php:461
+msgid "No media selected!"
+msgstr "कोई मीडिया चयनित नहीं!"
+
+#: admin/inc/profile_edit.php:462
+msgid "Upload"
+msgstr "डालना"
+
+#: public/inc/controller/full_profile.php:78 public/view_profile.php:84
+msgid "Family Detail"
+msgstr "परिवार का विवरण"
+
+#: public/inc/controller/full_profile.php:81 public/view_profile.php:87
+msgid "Personal Detail"
+msgstr "व्यक्तिगत जानकारी"
+
+#: public/inc/controller/full_profile.php:84 public/view_profile.php:90
+msgid "Other Detail"
+msgstr "अन्य जानकारी"
+
+#: public/inc/controller/full_profile.php:97 public/inc/profile_page-old.php:29
+#: public/view_profile.php:103
+msgid "Date of Birth"
+msgstr "जन्म की तारीख"
+
+#: public/inc/controller/full_profile.php:113 public/view_profile.php:119
+msgid "Maternal gotra"
+msgstr "माता का गोत्र"
+
+#: public/inc/controller/full_profile.php:153 public/view_profile.php:159
+msgid "Comapny City"
+msgstr "कंपनी शहर"
+
+#: public/inc/controller/full_profile.php:177 public/view_profile.php:183
+msgid "Father's Occupation"
+msgstr "पिता का व्यवसाय"
+
+#: public/inc/controller/full_profile.php:181 public/view_profile.php:187
+msgid "Father's Annual Income"
+msgstr "पिता की वार्षिक आय"
+
+#: public/inc/controller/full_profile.php:185 public/view_profile.php:191
+msgid "Father's Mobile No"
+msgstr "पिता मोबाइल नं"
+
+#: public/inc/controller/full_profile.php:189 public/view_profile.php:195
+msgid "Mother's Name"
+msgstr "मां का नाम"
+
+#: public/inc/controller/full_profile.php:193 public/view_profile.php:199
+msgid "Mother's Occupation"
+msgstr "मां का व्यवसाय"
+
+#: public/inc/controller/full_profile.php:201 public/view_profile.php:207
+msgid "Native Place"
+msgstr "पैतृक स्थान"
+
+#: public/inc/controller/full_profile.php:213 public/view_profile.php:219
+msgid "Status of Family"
+msgstr "परिवार की स्थिति"
+
+#: public/inc/controller/full_profile.php:234 public/view_profile.php:240
+msgid "Un-married Brother"
+msgstr "विवाहित भाई की संख्या"
+
+#: public/inc/controller/full_profile.php:238 public/view_profile.php:244
+msgid "Un-married Sister"
+msgstr "विवाहित बहन की सं"
+
+#: public/inc/controller/full_profile.php:242 public/view_profile.php:248
+msgid "Married Brother"
+msgstr "विवाहित भाई की संख्या"
+
+#: public/inc/controller/full_profile.php:246 public/view_profile.php:252
+msgid "Married Sister"
+msgstr "विवाहित बहन की सं"
+
+#: public/inc/controller/full_profile.php:254 public/view_profile.php:260
+msgid "Kundali Milan"
+msgstr "कुंडली मिलान"
+
+#: public/inc/controller/full_profile.php:258 public/view_profile.php:264
+msgid "About Me"
+msgstr "मेरे बारे में"
+
+#: public/inc/matrimonial.php:117
+msgid "Andaman and Nicobar Islands"
+msgstr "अंडमान व नोकोबार द्वीप समूह"
+
+#: public/inc/matrimonial.php:119
+msgid "Andhra Pradesh"
+msgstr "आंध्र प्रदेश"
+
+#: public/inc/matrimonial.php:120
+msgid "Arunachal Pradesh"
+msgstr "अरुणाचल प्रदेश"
+
+#: public/inc/matrimonial.php:121
+msgid "Assam"
+msgstr "असम"
+
+#: public/inc/matrimonial.php:122
+msgid "Bihar"
+msgstr "बिहार"
+
+#: public/inc/matrimonial.php:123
+msgid "Chandigarh"
+msgstr "चंडीगढ़"
+
+#: public/inc/matrimonial.php:124
+msgid "Chhattisgarh"
+msgstr "छत्तीसगढ़"
+
+#: public/inc/matrimonial.php:125
+msgid "Dadra and Nagar Haveli"
+msgstr "दादरा और नगर हवेली"
+
+#: public/inc/matrimonial.php:126
+msgid "Daman and Diu"
+msgstr "दमन और दीव"
+
+#: public/inc/matrimonial.php:127
+msgid "Delhi"
+msgstr "दिल्ली"
+
+#: public/inc/matrimonial.php:128
+msgid "Goa"
+msgstr "गोवा"
+
+#: public/inc/matrimonial.php:129
+msgid "Gujarat"
+msgstr "गुजरात"
+
+#: public/inc/matrimonial.php:130
+msgid "Haryana"
+msgstr "हरियाणा"
+
+#: public/inc/matrimonial.php:131
+msgid "Himachal Pradesh"
+msgstr "हिमाचल प्रदेश"
+
+#: public/inc/matrimonial.php:132
+msgid "Jammu and Kashmir"
+msgstr "जम्मू और कश्मीर"
+
+#: public/inc/matrimonial.php:133
+msgid "Jharkhand"
+msgstr "झारखंड"
+
+#: public/inc/matrimonial.php:134
+msgid "Karnataka"
+msgstr "कर्नाटक"
+
+#: public/inc/matrimonial.php:135
+msgid "Kerala"
+msgstr "केरल"
+
+#: public/inc/matrimonial.php:136
+msgid "Lakshadweep"
+msgstr "लक्षद्वीप"
+
+#: public/inc/matrimonial.php:137
+msgid "Madhya Pradesh"
+msgstr "मध्य प्रदेश"
+
+#: public/inc/matrimonial.php:138
+msgid "Maharashtra"
+msgstr "महाराष्ट्र"
+
+#: public/inc/matrimonial.php:139
+msgid "Manipur"
+msgstr "मणिपुर"
+
+#: public/inc/matrimonial.php:140
+msgid "Meghalaya"
+msgstr "मेघालय"
+
+#: public/inc/matrimonial.php:141
+msgid "Mizoram"
+msgstr "मिजोरम"
+
+#: public/inc/matrimonial.php:142
+msgid "Nagaland"
+msgstr "नगालैंड"
+
+#: public/inc/matrimonial.php:143
+msgid "Orissa"
+msgstr "ओडिशा"
+
+#: public/inc/matrimonial.php:144
+msgid "Pondicherry"
+msgstr "पांडिचेरी"
+
+#: public/inc/matrimonial.php:145
+msgid "Punjab"
+msgstr "पंजाब"
+
+#: public/inc/matrimonial.php:146
+msgid "Rajasthan"
+msgstr "राजस्थान"
+
+#: public/inc/matrimonial.php:147
+msgid "Sikkim"
+msgstr "Sikkim"
+
+#: public/inc/matrimonial.php:148
+msgid "Tamil Nadu"
+msgstr "तमिलनाडु"
+
+#: public/inc/matrimonial.php:149
+msgid "Tripura"
+msgstr "त्रिपुरा"
+
+#: public/inc/matrimonial.php:150
+msgid "Uttaranchal"
+msgstr "उत्तरांचल"
+
+#: public/inc/matrimonial.php:151
+msgid "Uttar Pradesh"
+msgstr "उत्तर प्रदेश"
+
+#: public/inc/matrimonial.php:152
+msgid "West Bengal"
+msgstr "पश्चिम बंगाल"
+
+#: public/inc/matrimonial.php:203
+msgid "Slim"
+msgstr "पतला"
+
+#: public/inc/matrimonial.php:204
+msgid "Average"
+msgstr "औसत"
+
+#: public/inc/matrimonial.php:205
+msgid "Athletic"
+msgstr "पुष्ट"
+
+#: public/inc/matrimonial.php:206
+msgid "Heavy"
+msgstr "भारी"
+
+#: public/inc/matrimonial.php:213
+msgid "Fair"
+msgstr "गोरा"
+
+#: public/inc/matrimonial.php:214
+msgid "Wheatish"
+msgstr "गेहुआ रंग"
+
+#: public/inc/matrimonial.php:215
+msgid "Dusky"
+msgstr "काला"
+
+#: public/inc/matrimonial.php:216
+msgid "Dark"
+msgstr "काला"
+
+#: public/inc/matrimonial.php:217
+msgid "Dark Brown"
+msgstr "गहरा भूरा"
+
+#: public/inc/matrimonial.php:218
+msgid "Light Brown"
+msgstr "हल्का भूरा"
+
+#: public/inc/matrimonial.php:225 public/inc/matrimonial.php:226
+msgid "A"
+msgstr "A"
+
+#: public/inc/matrimonial.php:227 public/inc/matrimonial.php:228
+msgid "B"
+msgstr "B"
+
+#: public/inc/matrimonial.php:229 public/inc/matrimonial.php:230
+msgid "AB"
+msgstr "AB"
+
+#: public/inc/matrimonial.php:231 public/inc/matrimonial.php:232
+msgid "O"
+msgstr "O"
+
+#: public/inc/profile_page-old.php:19 public/inc/profile_page.php:21
+#: public/inc/safepage.php:21
+msgid "Matrimonial List"
+msgstr "वैवाहिक सूची"
+
+#: public/inc/profile_page-old.php:34 public/inc/profile_page.php:34
+#: public/inc/safepage.php:34
+msgid "Father"
+msgstr "पिता जी"
+
+#: public/inc/profile_page-old.php:35 public/inc/profile_page.php:37
+#: public/inc/safepage.php:37
+msgid "Mother"
+msgstr "मां"
+
+#: public/inc/profile_page-old.php:38 public/inc/profile_page.php:38
+#: public/inc/safepage.php:38
+msgid "View More"
+msgstr "और देखो"
+
+#: public/inc/profile_page.php:32 public/inc/safepage.php:32
+msgid "DOB"
+msgstr "जन्म की तारीख"
